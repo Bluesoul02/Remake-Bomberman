@@ -347,9 +347,9 @@ public class Jeu extends JFrame{
 	}
 	
 	  public void leave() {
-	      victoire.stopMusic();
-	      this.dispose();
-	      Fenetre newfen = new Fenetre();
+	    	this.dispose();
+	    	Fenetre newfen = new Fenetre();
+	    	victoire.stopMusic();
 	    }
 	  public void retry() {
 		  
@@ -385,7 +385,7 @@ public class Jeu extends JFrame{
 			if (lvl1.isFin()==true) {
 				this.setContentPane(win);
 				bgm.stopMusic();
-				victoire.clip.start();
+		    	victoire.clip.start();
 			}
 			try {
 				Thread.sleep(16);

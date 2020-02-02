@@ -57,7 +57,7 @@ public class Labyrinth extends JPanel{
 		setPreferredSize(new Dimension(getToolkit().getScreenSize().width, getToolkit().getScreenSize().height));
 		placerBordure();
 		placerMurIncassableCentraux();
-		spawnEnnemis(5);
+		spawnEnnemis(7);
 		placerMurCassable();
 	}
 

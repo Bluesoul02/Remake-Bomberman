@@ -56,7 +56,7 @@ public class PanneauSettings extends JPanel{
 		super.paintComponent(g);
 		g.setFont(new Font("Molot",Font.BOLD,130));
 		g.drawImage(fond,0,0,width,height,this);
-		g.drawString("Interface sound :",width/14,5*(height/10));
+		g.drawString("Sound interface :",width/14,5*(height/10));
 		g.drawString("Music :",width/12,7*(height/10)+height/8);
     }
 }
